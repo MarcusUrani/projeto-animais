@@ -46,6 +46,11 @@ body {
   letter-spacing: .1em;
 }
 
+.menu li a:hover {
+  color: grey;
+  transition: all ease .3s;
+}
+
 .grid-section {
   grid-column: 2 / 4;
   width: 100%;
@@ -132,6 +137,7 @@ body {
   margin-top: 2rem;
   margin-bottom: .5rem;
   color: #E54;
+  cursor: pointer;
 }
 
 .faq-lista dt::before {
